@@ -24,25 +24,3 @@ public class Operation {
         }
     }
 }
-
-/*
-function operation(in1, in2, elem) {
-    switch (elem) {
-        case "+":
-            return in1 + in2;
-            break;
-        case "-":
-            return in1 - in2;
-            break;
-        case "*":
-            return in1 * in2;
-            break;
-        case "/":
-            return Math.floor(in1 / in2);
-            break;
-        default:
-            throw new Error(elem + " - неправильная операция");
-            break;
-    }
-}
- */
