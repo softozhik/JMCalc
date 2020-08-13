@@ -12,8 +12,8 @@ public class ToRoman {
     }
 
     public void convertToRoman() {
-        String[] rnChars = {"M", "CM", "D", "C", "XC", "L", "X", "IX", "V", "I"};
-        int[] rnVals = {1000, 900, 500, 100, 90, 50, 10, 9, 5, 1};
+        String[] rnChars = {"C", "XC", "L", "X", "IX", "V", "I"};
+        int[] rnVals = {100, 90, 50, 10, 9, 5, 1};
         result = "";
         if (dig > 0) {
             for (int i = 0; i < rnVals.length; i++) {
